@@ -1,0 +1,80 @@
+ /* Paleta de Cores */
+:root {
+    --bege-claro: #F5ECE1;
+    --bege-medio: #E0C9A6;
+    --bege-escuro: #C4A484;
+    --marrom-suave: #8D6E63;
+    --marrom-escuro: #5D4037;
+}
+
+/* Reset e Fonte Padrão */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bege-claro);
+    color: var(--marrom-escuro);
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--bege-medio);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--marrom-escuro);
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--marrom-suave);
+}
+
+/* Galeria */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid var(--marrom-suave);
+}
+
+figcaption {
+    font-size: 14px;
+    color: var(--marrom-escuro);
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--bege-escuro);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
